@@ -54,7 +54,7 @@ export default function Layout4() {
 
                     </View>
                     <TextInput placeholder="Mã giảm giá"
-                        style={{fontSize: "18px", marginLeft: "10px", fontWeight: "bold"}}
+                        style={{fontSize: "18px", marginLeft: "10px", fontWeight: "bold", outline: "none", width: "100%"}}
                     />
                 </View>
                 <Pressable style={{flex: 2, marginLeft: "23px", height: "100%", backgroundColor: "#0A5EB7", justifyContent: "center"}}>
