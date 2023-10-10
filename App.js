@@ -7,6 +7,7 @@ import Layout2 from './src/components/layout2';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
 import Layout3 from './src/components/layout3';
+import Layout4 from './src/components/layout4';
 const Stack = createStackNavigator();
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
     //   </Stack.Navigator>
     // </NavigationContainer>
     // // <Layout2/>
-    <Layout3/>
+    // <Layout3/>
+    <Layout4/>
   );
 }
