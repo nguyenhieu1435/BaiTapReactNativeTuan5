@@ -7,14 +7,14 @@ export const styles = StyleSheet.create({
         backgroundColor: "#fff"
     },
     imageUsb: {
-        width: "70px",
-        height: "70px",
-
+        width: 70,
+        height: 70,
     },
     containerHeaderUsb: {
         flexDirection: "row",
         alignItems: "center",
-        gap: "10px",
-        marginBottom: "50px"
+        width: "100%",
+        gap: 10,
+        marginBottom: 50
     }
 })
